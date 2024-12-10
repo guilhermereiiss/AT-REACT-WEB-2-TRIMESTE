@@ -5,7 +5,7 @@ const Home = () => {
   const navigate = useNavigate();
 
   const navegaCentral = () =>{
-    navigate('/signin')
+    navigate('/AT-REACT-WEB-2-TRIMESTE/signin')
   }
   return (
       <div className='container'>

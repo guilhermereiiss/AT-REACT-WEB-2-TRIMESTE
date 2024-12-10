@@ -14,19 +14,19 @@ const SignUp = () => {
 
   const handleSignUp = () => {
     if (!email || !senha) {
-      setError('Preencha todos os campos!');
+      setError(t("Fill in all the fields!"));
       return;
     }
 
     localStorage.setItem('email', email);
     localStorage.setItem('senha', senha);
 
-    console.log('Cadastro realizado');
-    navigate('/Central');
+    console.log(t("Registration completed"));
+    navigate('/AT-REACT-WEB-2-TRIMESTE/Central');
   };
 
   const handleNavigateToLogin = () => {
-    navigate('/signin');
+    navigate('/AT-REACT-WEB-2-TRIMESTE/signin');
   };
 
   return (

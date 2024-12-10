@@ -252,7 +252,7 @@ const ItemHome = () => {
                   dateFormat="Pp"
                   fullWidth
                   className="datepicker-amamentacao"
-                  placeholderText={t("Start Time")}
+                  placeholderText={t("Start")}
                   sx={{ marginBottom: 2, backgroundColor: '#fff', borderRadius: 1 }}
                 />
               </div>
@@ -265,7 +265,7 @@ const ItemHome = () => {
                   dateFormat="Pp"
                   fullWidth
                   className="datepicker-amamentacao"
-                  placeholderText={t("End Time")}
+                  placeholderText={t("End")}
                   sx={{ marginBottom: 2, backgroundColor: '#fff', borderRadius: 1 }}
                 />
               </div>
@@ -362,8 +362,8 @@ const ItemHome = () => {
             <CardComponent sx={{ backgroundColor: '#fff', padding: 3 }}>
               <TextComponent variant="h6" sx={{ fontWeight: 'bold' }}>{t('Breastfeeding')}</TextComponent>
               <TextComponent>{t('Type')}: {item.tipo}</TextComponent>
-              <TextComponent>{t('Start Time')}: {formatDate(item.horarioInicio)}</TextComponent>
-              <TextComponent>{t('End Time')}: {formatDate(item.horarioFim)}</TextComponent>
+              <TextComponent>{t('Start')}: {formatDate(item.horarioInicio)}</TextComponent>
+              <TextComponent>{t('End')}: {formatDate(item.horarioFim)}</TextComponent>
               <TextComponent>{t('Quantity')}: {item.quantidade}</TextComponent>
               <TextComponent>{t('Side')}: {item.lado}</TextComponent>
               <TextComponent>{t('Observation')}: {item.observacao}</TextComponent>

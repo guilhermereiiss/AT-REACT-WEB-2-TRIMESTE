@@ -16,14 +16,14 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     <>
       
-      <Route path="/" element={<Home />} />
-      <Route path="/signin" element={<SignIn />} />
-      <Route path="/signup" element={<SignUp />} />
-      <Route path="/*" element={<NotFound />} />
+      <Route path="/AT-REACT-WEB-2-TRIMESTE/" element={<Home />} />
+      <Route path="/AT-REACT-WEB-2-TRIMESTE/signin" element={<SignIn />} />
+      <Route path="/AT-REACT-WEB-2-TRIMESTE/signup" element={<SignUp />} />
+      <Route path="/AT-REACT-WEB-2-TRIMESTE/*" element={<NotFound />} />
       
-      <Route path="/Central" element={<PrivateRoute element={<Central />} />} />
-      <Route path="/form" element={<PrivateRoute element={<Form />} />} />
-      <Route path="/settings" element={<PrivateRoute element={<Settings />} />} />
+      <Route path="/AT-REACT-WEB-2-TRIMESTE/Central" element={<PrivateRoute element={<Central />} />} />
+      <Route path="/AT-REACT-WEB-2-TRIMESTE/form" element={<PrivateRoute element={<Form />} />} />
+      <Route path="/AT-REACT-WEB-2-TRIMESTE/settings" element={<PrivateRoute element={<Settings />} />} />
     </>
   )
 );

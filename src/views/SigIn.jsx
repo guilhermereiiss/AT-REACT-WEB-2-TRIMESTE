@@ -22,14 +22,14 @@ const Login = () => {
     
     
     if (email === storedEmail && senha === storedSenha) {
-      navigate("/Central"); 
+      navigate("/AT-REACT-WEB-2-TRIMESTE/Central"); 
     } else {
       setError('Email ou senha incorretos'); 
     }
   };
 
   const handleNavigate = () => {
-    navigate('/signup');
+    navigate('/AT-REACT-WEB-2-TRIMESTE/signup');
   };
 
   return (

@@ -8,7 +8,7 @@ const NotFound = () => {
   const navigate = useNavigate();
 
   const handleGoHome = () => {
-    navigate('/Central');
+    navigate('/AT-REACT-WEB-2-TRIMESTE/Central');
   };
 
   return (

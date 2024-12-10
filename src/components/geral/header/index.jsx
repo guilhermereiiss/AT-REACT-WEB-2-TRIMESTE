@@ -17,7 +17,7 @@ const BabyHeader = () => {
   const imageUrl = "https://cdn-icons-png.flaticon.com/512/7890/7890168.png";
 
   const navegaSetting = () => {
-    navigate('/settings');
+    navigate('/AT-REACT-WEB-2-TRIMESTE/settings');
   };
 
   return (

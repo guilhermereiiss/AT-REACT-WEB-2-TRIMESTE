@@ -43,7 +43,7 @@ const Settings = ({ setBabyName, setBabyWeight, setBabyLength }) => {
 
   const handleLogout = () => {
     localStorage.clear();
-    navigate('/signin');
+    navigate('/AT-REACT-WEB-2-TRIMESTE/signin');
   };
 
   return (
