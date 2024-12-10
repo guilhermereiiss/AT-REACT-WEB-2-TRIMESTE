@@ -1,0 +1,51 @@
+.datepicker-container-fralda,
+.datepicker-container-sono {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 16px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 12px 0;
+}
+
+.datepicker-container-fralda {
+    width: 600px;
+    height: 150px;
+}
+
+.datepicker-fralda {
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #000000;
+}
+
+.datepicker-container-sono {
+    width: 600px;
+    height: 150px;
+}
+
+.datepicker-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 16px;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+
+    .datepicker-container-fralda,
+    .datepicker-container-sono {
+        flex-direction: column;
+        width: 90%;
+        height: auto;
+    }
+
+    .datepicker-fralda {
+        width: 100%;
+    }
+}
